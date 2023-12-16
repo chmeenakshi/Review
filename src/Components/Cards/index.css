@@ -1,0 +1,294 @@
+/* Common styles for both mobile and desktop */
+.heading1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ddd7d7;
+    margin-top: 20px;
+    padding-left: 80px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH7Ul2dbe2UbwfsJ7ahbL0BchcxXduJmFqag&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 15px;
+  }
+  
+  .MEENA {
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: rgb(235, 229, 229);
+    
+    color: rgb(202, 197, 190);
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-right: 20px;
+  }
+  
+  .meenaSec img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  .meenaSec button {
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .progress-bar {
+    width: 70px;
+  }
+  .progress{
+    width: 150px;
+  }
+  .container h4,
+  .container h2 {
+    margin-right: 20px; /* Adjust as needed for responsiveness */
+  }
+  
+  .cardSection2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color:#f7f1f1;
+    margin-top: 20px;
+    padding: 15px 20px;
+    flex-direction: column;
+    border-radius: 15px;
+   
+  }
+  
+  .text {
+    padding: 0 20px;
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    margin-left: 17px;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    border-radius: 15px;
+  }
+  
+  .reviewHeading h3 {
+    font-size: 24px;
+  }
+  
+  .heading2 h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .heading2 select {
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .reviewStar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 20px;
+  }
+  
+  .reviewStar h3 {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  input[type=radio] {
+    display: none;
+  }
+  
+  .stars {
+    color: gold; /* or any other color you prefer for stars */
+    margin-left: 5px;
+  }
+  
+  .star {
+    cursor: pointer;
+    color: gold;
+  }
+  
+  .button-owe button {
+    background-color: rgb(104, 24, 37);
+    color: pink;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .rating1 {
+    display: flex;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-data span {
+    background-color: rgb(36, 150, 63);
+    border-radius: 6px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px 0px;
+    width: 35px;
+    gap: 10px;
+    justify-content: space-around;
+  }
+  
+  .data {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 768px) {
+    .heading1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .MEENA {
+        margin-right: 10px;
+    }
+
+    .meenaSec img {
+        margin-top: 20px;
+    }
+
+    .progress-bar {
+        width: 50px;
+    }
+
+    .progress {
+        width: 120px;
+    }
+
+    .container h4,
+    .container h2 {
+        margin-right: 10px;
+    }
+
+    .cardSection2,
+    .text {
+        padding: 10px;
+    }
+
+    .reviewHeading h3 {
+        font-size: 20px;
+    }
+
+    .heading2 h5 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .heading2 select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .reviewStar h3 {
+        margin-right: 10px;
+    }
+
+    .stars {
+        margin-left: 3px;
+    }
+
+    .button-owe button {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .rating1 {
+        margin-bottom: 20px;
+    }
+
+    .user-data span {
+        font-size: 12px;
+        width: 25px;
+    }
+}
+  
+  /* Media queries can be added for responsiveness */
+  
+  @media (max-width: 768px) {
+    .heading1 {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .meenaSec img {
+      width: 80px; /* Adjust the width as needed */
+    }
+  
+    .container h4,
+    .container h2 {
+      margin-right: 10px; /* Adjust as needed for responsiveness */
+    }
+  
+    .cardSection2 {
+      flex-direction: column;
+    }
+  
+    .reviewStar {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .heading1 {
+      padding: 10px;
+    }
+  
+    .meenaSec img {
+      width: 60px; /* Adjust the width as needed */
+    }
+  
+    .text {
+      padding: 0;
+      text-align: center;
+    }
+  
+    .reviewStar h3 {
+      margin-right: 10px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .heading1 {
+      padding: 10px;
+    }
+  
+    .meenaSec img {
+      width: 60px; /* Adjust the width as needed */
+    }
+  
+    .text {
+      padding: 0;
+      text-align: center;
+    }
+  
+    .reviewStar h3 {
+      margin-right: 10px;
+    }
+  }

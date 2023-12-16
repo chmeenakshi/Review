@@ -1,0 +1,66 @@
+/* Default styles */
+.card-container2 {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #555358;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH7Ul2dbe2UbwfsJ7ahbL0BchcxXduJmFqag&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 0px solid #e2a0a0;
+    border-radius: 12px;
+    color: aqua;
+}
+
+.review p {
+    margin: 0;
+   
+    border-radius: 10px;
+}
+
+.review button {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    color: #a7a3b4;
+    background-color: #121213;
+}
+
+.add-review-form {
+    margin-bottom: 20px;
+}
+
+.add-review-form input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.add-review-form button {
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .add-review-form input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .review button {
+        width: 100%;
+    }
+}

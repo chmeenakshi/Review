@@ -1,0 +1,13 @@
+###
+GET  http://localhost:4448/api/
+
+###
+GET  http://localhost:4448/api/Reviews
+###
+GET  http://localhost:4448/api/Reviews/657a97ac3e8fb09050457764
+
+###
+GET http://localhost:4448/api/categories
+
+###
+GET http://localhost:4448/api/categories/Bank Sector

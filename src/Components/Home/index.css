@@ -1,0 +1,260 @@
+/* Container for the grid */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minmax value as needed */
+    gap: 10px;
+    justify-content: center;
+   
+    padding: 20px;
+   
+    
+  }
+  .heading-container{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS4ItnHpJivB6Xyu0_DQnY43uFV1cNKc7TaA&usqp=CAU");
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border: 0px;
+  
+    padding-top: 40PX;
+
+  }
+  .container-card2 h1{
+  height: 20px;
+  display: flex;
+  justify-content: left;
+  padding-left: 40px;
+  color: #ca2593;
+ 
+  }
+  /* Individual card styles */
+  .recent-rev-content {
+    border: 0px solid #f5e9e9;
+    border-radius: 8px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH7Ul2dbe2UbwfsJ7ahbL0BchcxXduJmFqag&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+   
+    padding: 20px;
+    background-color: rgb(228, 222, 235);
+    
+    
+  }
+  
+  .recent-rev-content:hover {
+    box-shadow: 0 0 10px rgba(129, 128, 128, 0.1);
+  }
+  
+  .recent-rev-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+   
+  }
+  .button{
+    background-color: #253eca;
+
+  }
+  .user-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #4b5a85;
+  }
+  .user-icon{
+    margin-left: 40px;
+    color: #9b1f8b;
+    background-color: #0c0c77;
+
+
+  }
+  
+  .star-holder {
+    color: #f8d322;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .review-title {
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(8, 18, 116);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 80px;
+  }
+  
+  .user-review-content {
+    margin-top: 10px;
+  }
+  
+  .read-complete-rev {
+    margin-top: 10px;
+    color: #253eca;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .card-container {
+      grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    }
+  
+    .recent-rev-content {
+      margin: 15px;
+      padding: 10px;
+    }
+  
+    .review-title {
+      margin-left: 0;
+    }
+  }
+  
+ 
+  /* Product Card Container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minmax value as needed */
+    gap: 10px;
+    justify-content: center;
+   
+    padding: 20px;
+   
+  }
+  
+  
+  /* Individual Product Card */
+  .recent-rev-content {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+     background-color: (245, 241, 241);
+    border-radius: 8px;
+  }
+  
+  .recent-rev-img img {
+    width: 100%;
+    border-radius: 4px;
+    height: auto;
+  }
+  
+  .user-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-name {
+    display: flex;
+    flex-direction: column;
+  }
+  
+   
+  .review-title {
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(8, 18, 116) 0, 255; /* Change color to your link color */
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-right: 70px;
+    
+  }
+  .star-holder  {
+    color: #f8d322; /* Change color to your star color */
+    margin-top: 5px;
+    justify-content: center;
+  }
+  
+  .user-review-content {
+    margin-top: 10px;
+  }
+  
+  .read-complete-rev {
+    margin-top: 10px;
+    color: #253eca;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add additional styling as needed */
+  @media only screen and (max-width: 600px) {
+    .card-container {
+      grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    }
+  
+    .recent-rev-content {
+      margin: 15px;
+      padding: 10px;
+    }
+  
+    .review-title {
+      margin-left: 0;
+    }
+  }
+  
+  
+  /* Responsive styles for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .card-container {
+      height: auto;
+      padding: 15px;
+    }
+  
+    .recent-rev-content {
+      margin: 15px;
+      padding: 10px;
+    }
+  
+    .review-title {
+      margin-left: 0;
+     
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .card-container {
+      height: auto;
+      padding: 15px;
+    }
+ 
+    .recent-rev-content {
+      margin: 15px;
+      padding: 10px;
+    }
+  
+    .review-title {
+      margin-left: 0;
+     
+    }
+  }
+  
+  /* Card Container using CSS Grid */
+
+  

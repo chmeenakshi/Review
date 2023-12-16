@@ -1,0 +1,81 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    width: 200%;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+
+
+    
+
+}
+.f{
+    margin-top: 5%;
+    width: 400px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 400;
+
+
+}
+.admininput{
+    height: 80px;
+    
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+.adminbtn{
+    margin-top: 20%;
+    margin-left: 10%;
+    height: 70px;
+
+    
+}
+
+.formheading{
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-left: 10PX;
+    margin-right: 10PX;
+}
+.error-msg{
+    color: red;
+    
+}
+.success-msg{
+    color: rgb(145, 151, 145);
+}
+/* FormPage.css */
+
+/* Your existing styles */
+
+/* Media Query for screens with a maximum width of 320px (mobile devices) */
+@media only screen and (max-width: 320px) {
+    .form-container {
+      width: 100%;
+    }
+  
+    .f {
+      width: 100%;
+    }
+  
+    .admininput {
+      width: 100%;
+    }
+  
+    .adminbtn {
+      margin-top: 10%;
+      margin-left: 0;
+      width: 100%;
+    }
+  
+    .formheading {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+  
